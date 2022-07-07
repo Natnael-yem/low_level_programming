@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: void;
+ * Return: void
  */
 int main(void)
 {
@@ -18,8 +18,9 @@ int main(void)
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz");
+			printf("Fizz ");
 		}
+
 		else if (i % 5 == 0)
 		{
 			if (i < p)
@@ -36,4 +37,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-		
