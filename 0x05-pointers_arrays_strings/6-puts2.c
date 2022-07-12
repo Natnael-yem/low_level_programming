@@ -2,7 +2,7 @@
 /**
  * puts2 - prints everry character of a string
  * @str: pointer to an int that will be updated
- * Return: void 
+ * Return: void
  */
 void puts2(char *str)
 {
