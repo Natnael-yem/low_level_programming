@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * rev_string - prints a reverse string
- * @s: pointer to an int that will be updated 
+ * @s: pointer to an int that will be updated
  * Return: void
  */
 void rev_string(char *s)
