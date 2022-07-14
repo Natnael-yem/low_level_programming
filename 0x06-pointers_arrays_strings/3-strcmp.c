@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _strcmp  - compares two strings
- * @s1; a pointer to a character that will be updated
- * @s2: a pointer to a character that will be updated
- * Return: value
+ * @s1; a pointer to a character that will be changed
+ * @s2: a pointer to a character that will be changed
+ * Return: dest
  */
 int _strcmp(char *s1, char *s2)
 {
