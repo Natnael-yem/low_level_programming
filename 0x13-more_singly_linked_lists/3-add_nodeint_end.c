@@ -2,7 +2,7 @@
 /**
  * add_nodeint_end - adds a node at the end of the linked list
  * @head: pointer to the firat element in the list
- * @n:data to insert in thenew element
+ * @n: data to insert in thenew element
  * Return: pointer to the new node, or NULL if it falis
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
@@ -16,6 +16,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	new->n = n;
 	new->next = NULL;
+
 	if (*head == NULL)
 	{
 		*head = new;
