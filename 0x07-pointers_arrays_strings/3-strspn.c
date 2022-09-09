@@ -5,7 +5,7 @@
  * @accept: this is string containing the list of character to match in s
  * Return: return count
  **/
-unsigned int strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int i, j;
 	int count = 0;
