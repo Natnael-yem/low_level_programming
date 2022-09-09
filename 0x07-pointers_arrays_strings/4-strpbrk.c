@@ -1,11 +1,13 @@
 #include "main.h"
+
 /**
  * _strpbrk - matches matches any character specifed
  * @s: this is the c string to be scanned
  * @accept: character in str1 that matches onr of the characters in str2
  * Return: string that matches any character specified in accept
  **/
-char *_strpbrk(char *Ss char *accept)
+
+char *_strpbrk(char *s char *accept)
 {
 	int j;
 
