@@ -6,8 +6,7 @@
  * @n: integer for the new node to contain
  * Return: if the function fails - NULL. otherwise - the address of the new node.
  */
-
-dlistint_t *add_nodeint_end(dlistint_T *head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new, *last;
 
